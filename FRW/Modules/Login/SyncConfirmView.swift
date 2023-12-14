@@ -110,9 +110,9 @@ struct SyncConfirmView: RouteableView {
     
 }
 
-#Preview {
-    SyncConfirmView(user: SyncInfo.User(userAvatar: "",userName: "six", walletAddress: "0x1231231", userId: "123123"))
-}
+//#Preview {
+//    SyncConfirmView(user: SyncInfo.User(userAvatar: "",userName: "six", walletAddress: "0x1231231", userId: "123123"))
+//}
 
 
 struct ClearBackgroundView: UIViewRepresentable {

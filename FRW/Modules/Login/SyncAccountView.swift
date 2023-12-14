@@ -43,6 +43,6 @@ struct SyncAccountView: RouteableView {
     }
 }
 
-#Preview {
-    SyncAccountView()
-}
+//#Preview {
+//    SyncAccountView()
+//}

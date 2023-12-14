@@ -119,9 +119,9 @@ struct SyncStatusView: View {
     }()
 }
 
-#Preview {
-    SyncStatusView(syncStatus: .constant(SyncAccountStatus.loading), isPresented: .constant(true))
-}
+//#Preview {
+//    SyncStatusView(syncStatus: .constant(SyncAccountStatus.loading), isPresented: .constant(true))
+//}
 
 
 

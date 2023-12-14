@@ -27,6 +27,6 @@ struct DeviceInfoItem: View {
     }
 }
 
-#Preview {
-    DeviceInfoItem(title: "application_tag".localized, detail: "Flow Core")
-}
+//#Preview {
+//    DeviceInfoItem(title: "application_tag".localized, detail: "Flow Core")
+//}

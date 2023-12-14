@@ -173,6 +173,7 @@ struct AccountKeyModel {
         case .number:
             String(accountKey.sequenceNumber)
         }
+        return ""
     }
 
     func weightDes() -> String {

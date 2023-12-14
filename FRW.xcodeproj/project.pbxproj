@@ -914,8 +914,6 @@
 		15F2444D28CB370D00C1090E /* LowerCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F2444028CB370D00C1090E /* LowerCapsuleView.swift */; };
 		15F517FB28C6574C00504FDC /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 15F517FA28C6574C00504FDC /* Atlantis */; };
 		15F517FD28C6577000504FDC /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = 15F517FC28C6577000504FDC /* Atlantis */; };
-		20D5639C27A0CAB720534DEB /* libPods-FRWWidgetsExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC49F1756FE98EDBC03537A1 /* libPods-FRWWidgetsExtension.a */; };
-		454E6122A6279F20401C1135 /* libPods-FRWNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0262769FB50528A95C0624 /* libPods-FRWNotificationServiceExtension.a */; };
 		48E351170DA3D5E647DEDE8E /* libPods-FRW-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A6084EF5A97C1D24D9D2E2 /* libPods-FRW-dev.a */; };
 		4E0A75AF2868929C00527D08 /* AddCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A75AE2868929C00527D08 /* AddCollectionViewModel.swift */; };
 		4E0D349F2A8B4E2900BC6E43 /* e-Ukraine-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D349B2A8B4E2800BC6E43 /* e-Ukraine-Bold.ttf */; };
@@ -1551,9 +1549,7 @@
 		6AFE1D092A38540300824D5C /* AccountSwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE1D072A38540300824D5C /* AccountSwitchViewModel.swift */; };
 		6AFED0292906794000221F95 /* WalletSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFED0282906794000221F95 /* WalletSettingViewModel.swift */; };
 		6AFED02A2906794000221F95 /* WalletSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFED0282906794000221F95 /* WalletSettingViewModel.swift */; };
-		77A9109AD0C5F3054CF79697 /* libPods-FRWDevNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7B0781E7402DDD9A39AA86 /* libPods-FRWDevNotificationServiceExtension.a */; };
 		A4407F6CF51E1D13FD759F27 /* libPods-FRW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA3A8A15ED88AEDAE75A3FC /* libPods-FRW.a */; };
-		B2FE27D079C125C180CD8D75 /* libPods-FRWDevWidgetsExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55E50FC26D859029A8E40E /* libPods-FRWDevWidgetsExtension.a */; };
 		D3C93DC758254F54AAC297A7 /* libPods-FRWTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BDDB9206815098905D60E1 /* libPods-FRWTests.a */; };
 /* End PBXBuildFile section */
 
@@ -1654,7 +1650,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		13C1A79E281C721D24DE1519 /* Pods-FRWWidgetsExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWWidgetsExtension.release.xcconfig"; path = "Target Support Files/Pods-FRWWidgetsExtension/Pods-FRWWidgetsExtension.release.xcconfig"; sourceTree = "<group>"; };
 		1500783B286830EF00A00109 /* FRWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1500783D286830EF00A00109 /* FlowReferenceWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowReferenceWalletTests.swift; sourceTree = "<group>"; };
 		1505E5FA28363578007B98D8 /* FRWAPI+User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FRWAPI+User.swift"; sourceTree = "<group>"; };
@@ -2026,12 +2021,9 @@
 		15F2443F28CB370D00C1090E /* CapusuleGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapusuleGroupView.swift; sourceTree = "<group>"; };
 		15F2444028CB370D00C1090E /* LowerCapsuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowerCapsuleView.swift; sourceTree = "<group>"; };
 		15F43D112753B4F6004F6F49 /* PageIndictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndictor.swift; sourceTree = "<group>"; };
-		196F7F396DB6B9142D45315D /* Pods-FRWDevWidgetsExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWDevWidgetsExtension.release.xcconfig"; path = "Target Support Files/Pods-FRWDevWidgetsExtension/Pods-FRWDevWidgetsExtension.release.xcconfig"; sourceTree = "<group>"; };
-		346C41D1BC0DA32D10A04020 /* Pods-FRWDevWidgetsExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWDevWidgetsExtension.debug.xcconfig"; path = "Target Support Files/Pods-FRWDevWidgetsExtension/Pods-FRWDevWidgetsExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		3DDE2BCF67AFDE95DD211138 /* Pods-FRW-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRW-dev.release.xcconfig"; path = "Target Support Files/Pods-FRW-dev/Pods-FRW-dev.release.xcconfig"; sourceTree = "<group>"; };
 		45CC33BF20B5E81FBF9EEC46 /* Pods-FRW-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRW-dev.debug.xcconfig"; path = "Target Support Files/Pods-FRW-dev/Pods-FRW-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		4BA3A8A15ED88AEDAE75A3FC /* libPods-FRW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E0262769FB50528A95C0624 /* libPods-FRWNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRWNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0860492AB8AF9B0037F582 /* FRWWidgetsExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = FRWWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		4E08604A2AB8AF9B0037F582 /* FRWDevWidgetsExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = FRWDevWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		4E0860512AB8BB1D0037F582 /* FRW.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = FRW.entitlements; sourceTree = "<group>"; };
@@ -2121,7 +2113,6 @@
 		4EFF94C32AEEDD0A00365EF7 /* IPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPResponse.swift; sourceTree = "<group>"; };
 		4EFF94C62AEEE5DD00365EF7 /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
 		61A6084EF5A97C1D24D9D2E2 /* libPods-FRW-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRW-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66DDACDE949E5AF343FA6571 /* Pods-FRWWidgetsExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWWidgetsExtension.debug.xcconfig"; path = "Target Support Files/Pods-FRWWidgetsExtension/Pods-FRWWidgetsExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		6A0137652897E7A0009BEF20 /* HalfSheetModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfSheetModal.swift; sourceTree = "<group>"; };
 		6A06CB0528AA25F400C81BE1 /* NFTUIKitListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTUIKitListDataSource.swift; sourceTree = "<group>"; };
 		6A06CB0928AA485200C81BE1 /* NFTUIKitListStyleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTUIKitListStyleHandler.swift; sourceTree = "<group>"; };
@@ -2397,17 +2388,10 @@
 		6AFE1D072A38540300824D5C /* AccountSwitchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSwitchViewModel.swift; sourceTree = "<group>"; };
 		6AFED0282906794000221F95 /* WalletSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSettingViewModel.swift; sourceTree = "<group>"; };
 		8F1B18D9EC4488E4CA90B778 /* Pods-FRW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRW.release.xcconfig"; path = "Target Support Files/Pods-FRW/Pods-FRW.release.xcconfig"; sourceTree = "<group>"; };
-		A4C2BD3575588679EF63DECC /* Pods-FRWNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-FRWNotificationServiceExtension/Pods-FRWNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		B00A14A8B548C11022919129 /* Pods-FRWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWTests.debug.xcconfig"; path = "Target Support Files/Pods-FRWTests/Pods-FRWTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA7B0781E7402DDD9A39AA86 /* libPods-FRWDevNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRWDevNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC49F1756FE98EDBC03537A1 /* libPods-FRWWidgetsExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRWWidgetsExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BDDB9206815098905D60E1 /* libPods-FRWTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRWTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D016937CA075CDFCFB662A70 /* Pods-FRWNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-FRWNotificationServiceExtension/Pods-FRWNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		D5FD6C72AF93BE17C3E64843 /* Pods-FRW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRW.debug.xcconfig"; path = "Target Support Files/Pods-FRW/Pods-FRW.debug.xcconfig"; sourceTree = "<group>"; };
 		E9D8032CFA7BB85BF366942B /* Pods-FRWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWTests.release.xcconfig"; path = "Target Support Files/Pods-FRWTests/Pods-FRWTests.release.xcconfig"; sourceTree = "<group>"; };
-		EC55E50FC26D859029A8E40E /* libPods-FRWDevWidgetsExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRWDevWidgetsExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F638FC93E13CC888FA57EC09 /* Pods-FRWDevNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWDevNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-FRWDevNotificationServiceExtension/Pods-FRWDevNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		F90C4AE18FC1872FF43BCC56 /* Pods-FRWDevNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRWDevNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-FRWDevNotificationServiceExtension/Pods-FRWDevNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2559,7 +2543,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454E6122A6279F20401C1135 /* libPods-FRWNotificationServiceExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2567,7 +2550,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A9109AD0C5F3054CF79697 /* libPods-FRWDevNotificationServiceExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2580,7 +2562,6 @@
 				6A0C6E1D29542DFC005F0EF6 /* SwiftUI.framework in Frameworks */,
 				4ED06E382ABABABA00F49A1A /* SwiftProtobuf.xcframework in Frameworks */,
 				6A0C6E1C29542DFC005F0EF6 /* WidgetKit.framework in Frameworks */,
-				B2FE27D079C125C180CD8D75 /* libPods-FRWDevWidgetsExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2593,7 +2574,6 @@
 				6A9DFBC729519D9800E10EAC /* SwiftUI.framework in Frameworks */,
 				4ED06E372ABABABA00F49A1A /* SwiftProtobuf.xcframework in Frameworks */,
 				6A9DFBC529519D9800E10EAC /* WidgetKit.framework in Frameworks */,
-				20D5639C27A0CAB720534DEB /* libPods-FRWWidgetsExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3125,11 +3105,7 @@
 				6A9DFBC629519D9800E10EAC /* SwiftUI.framework */,
 				4BA3A8A15ED88AEDAE75A3FC /* libPods-FRW.a */,
 				61A6084EF5A97C1D24D9D2E2 /* libPods-FRW-dev.a */,
-				BA7B0781E7402DDD9A39AA86 /* libPods-FRWDevNotificationServiceExtension.a */,
-				EC55E50FC26D859029A8E40E /* libPods-FRWDevWidgetsExtension.a */,
-				4E0262769FB50528A95C0624 /* libPods-FRWNotificationServiceExtension.a */,
 				C7BDDB9206815098905D60E1 /* libPods-FRWTests.a */,
-				BC49F1756FE98EDBC03537A1 /* libPods-FRWWidgetsExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -4265,16 +4241,8 @@
 				8F1B18D9EC4488E4CA90B778 /* Pods-FRW.release.xcconfig */,
 				45CC33BF20B5E81FBF9EEC46 /* Pods-FRW-dev.debug.xcconfig */,
 				3DDE2BCF67AFDE95DD211138 /* Pods-FRW-dev.release.xcconfig */,
-				346C41D1BC0DA32D10A04020 /* Pods-FRWDevWidgetsExtension.debug.xcconfig */,
-				196F7F396DB6B9142D45315D /* Pods-FRWDevWidgetsExtension.release.xcconfig */,
-				A4C2BD3575588679EF63DECC /* Pods-FRWNotificationServiceExtension.debug.xcconfig */,
-				D016937CA075CDFCFB662A70 /* Pods-FRWNotificationServiceExtension.release.xcconfig */,
 				B00A14A8B548C11022919129 /* Pods-FRWTests.debug.xcconfig */,
 				E9D8032CFA7BB85BF366942B /* Pods-FRWTests.release.xcconfig */,
-				66DDACDE949E5AF343FA6571 /* Pods-FRWWidgetsExtension.debug.xcconfig */,
-				13C1A79E281C721D24DE1519 /* Pods-FRWWidgetsExtension.release.xcconfig */,
-				F638FC93E13CC888FA57EC09 /* Pods-FRWDevNotificationServiceExtension.debug.xcconfig */,
-				F90C4AE18FC1872FF43BCC56 /* Pods-FRWDevNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -5458,7 +5426,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0B10532A66679100023767 /* Build configuration list for PBXNativeTarget "FRWNotificationServiceExtension" */;
 			buildPhases = (
-				FF366178DB01B8C6140E5B7E /* [CP] Check Pods Manifest.lock */,
 				6A0B10452A66679100023767 /* Sources */,
 				6A0B10462A66679100023767 /* Frameworks */,
 				6A0B10472A66679100023767 /* Resources */,
@@ -5476,7 +5443,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0B10612A6675A600023767 /* Build configuration list for PBXNativeTarget "FRWDevNotificationServiceExtension" */;
 			buildPhases = (
-				9D5500C9778E7AC720738697 /* [CP] Check Pods Manifest.lock */,
 				6A0B10552A6675A600023767 /* Sources */,
 				6A0B10562A6675A600023767 /* Frameworks */,
 				6A0B10572A6675A600023767 /* Resources */,
@@ -5494,7 +5460,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0C6E2929542DFE005F0EF6 /* Build configuration list for PBXNativeTarget "FRWDevWidgetsExtension" */;
 			buildPhases = (
-				64A0FC5A4467C961B2D66DB1 /* [CP] Check Pods Manifest.lock */,
 				6A0C6E1729542DFC005F0EF6 /* Sources */,
 				6A0C6E1829542DFC005F0EF6 /* Frameworks */,
 				6A0C6E1929542DFC005F0EF6 /* Resources */,
@@ -5515,7 +5480,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A9DFBD629519D9A00E10EAC /* Build configuration list for PBXNativeTarget "FRWWidgetsExtension" */;
 			buildPhases = (
-				F8EE2FC983E9B82F19EB58CC /* [CP] Check Pods Manifest.lock */,
 				6A9DFBBF29519D9700E10EAC /* Sources */,
 				6A9DFBC029519D9700E10EAC /* Frameworks */,
 				6A9DFBC129519D9700E10EAC /* Resources */,
@@ -5868,28 +5832,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FRW/Pods-FRW-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		64A0FC5A4467C961B2D66DB1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FRWDevWidgetsExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6A04A4722961A5A900F069C4 /* dSYM Upload */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5969,28 +5911,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D5500C9778E7AC720738697 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FRWDevNotificationServiceExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AA2AF8CA5C58082503437BD0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -6024,50 +5944,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-FRW-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8EE2FC983E9B82F19EB58CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FRWWidgetsExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF366178DB01B8C6140E5B7E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FRWNotificationServiceExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -7776,11 +7652,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -7853,11 +7725,7 @@
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -7869,7 +7737,6 @@
 		};
 		6A0B10512A66679100023767 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4C2BD3575588679EF63DECC /* Pods-FRWNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = FRWNotificationServiceExtension/FRWNotificationServiceExtension.entitlements;
@@ -7898,7 +7765,6 @@
 		};
 		6A0B10522A66679100023767 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D016937CA075CDFCFB662A70 /* Pods-FRWNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = FRWNotificationServiceExtension/FRWNotificationServiceExtension.entitlements;
@@ -7927,7 +7793,6 @@
 		};
 		6A0B10622A6675A600023767 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F638FC93E13CC888FA57EC09 /* Pods-FRWDevNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = FRWDevNotificationServiceExtension/FRWDevNotificationServiceExtension.entitlements;
@@ -7956,7 +7821,6 @@
 		};
 		6A0B10632A6675A600023767 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F90C4AE18FC1872FF43BCC56 /* Pods-FRWDevNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = FRWDevNotificationServiceExtension/FRWDevNotificationServiceExtension.entitlements;
@@ -7985,7 +7849,6 @@
 		};
 		6A0C6E2A29542DFE005F0EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 346C41D1BC0DA32D10A04020 /* Pods-FRWDevWidgetsExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -8016,7 +7879,6 @@
 		};
 		6A0C6E2B29542DFE005F0EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 196F7F396DB6B9142D45315D /* Pods-FRWDevWidgetsExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -8047,7 +7909,6 @@
 		};
 		6A9DFBD429519D9A00E10EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66DDACDE949E5AF343FA6571 /* Pods-FRWWidgetsExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -8078,7 +7939,6 @@
 		};
 		6A9DFBD529519D9A00E10EAC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13C1A79E281C721D24DE1519 /* Pods-FRWWidgetsExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;

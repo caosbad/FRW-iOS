@@ -167,7 +167,7 @@ struct DeveloperModeView: RouteableView {
 
         let rootView = RCTRootView(
             bundleURL: jsCodeLocation,
-            moduleName: "RNHighScores",
+            moduleName: "MyReactNativeApp",
             initialProperties: mockData as [NSObject: AnyObject],
             launchOptions: nil
         )

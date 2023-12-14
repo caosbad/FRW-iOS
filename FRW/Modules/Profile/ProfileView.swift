@@ -375,7 +375,7 @@ extension ProfileView.WalletConnectView.Row {
         case .devices:
             "devices".localized
         }
-        
+        return ""
     }
     
     var style: ProfileView.SettingItemCell.Style {

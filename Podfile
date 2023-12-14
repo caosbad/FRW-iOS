@@ -87,36 +87,46 @@ target 'FRW-dev' do
 
 end
 
-target 'FRWDevNotificationServiceExtension' do
+# target 'FRWDevNotificationServiceExtension' do
   # Comment the next line if you don't want to use dynamic frameworks
 #  use_frameworks!
 
   # Pods for FRWDevNotificationServiceExtension
 
-end
+# end
 
-target 'FRWDevWidgetsExtension' do
+# target 'FRWDevWidgetsExtension' do
   # Comment the next line if you don't want to use dynamic frameworks
 #  use_frameworks!
 
   # Pods for FRWDevWidgetsExtension
 
-end
+# end
 
-target 'FRWNotificationServiceExtension' do
+# target 'FRWNotificationServiceExtension' do
   # Comment the next line if you don't want to use dynamic frameworks
 #  use_frameworks!
 
   # Pods for FRWNotificationServiceExtension
 
-end
+# end
 
-target 'FRWWidgetsExtension' do
+# target 'FRWWidgetsExtension' do
   # Comment the next line if you don't want to use dynamic frameworks
 #  use_frameworks!
 
   # Pods for FRWWidgetsExtension
 
+# end
+
+pre_install do |installer|
+  installer.pod_targets.each do |pod|
+    if pod.name.eql?('RNScreens')
+      def pod.build_type
+        Pod::BuildType.static_library
+      end
+    end
+  end
 end
 
 post_install do |installer|
@@ -126,6 +136,12 @@ post_install do |installer|
     config[:reactNativePath],
     :mac_catalyst_enabled => false
   )
+
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
+    end
+  end
   
   installer.pods_project.targets.each do |target|
     
