@@ -317,6 +317,23 @@ PODS:
     - glog
   - react-native-safe-area-context (4.8.1):
     - React-Core
+  - react-native-update (9.1.5):
+    - RCT-Folly (= 2021.07.22.00)
+    - React
+    - React-Core
+    - react-native-update/HDiffPatch (= 9.1.5)
+    - react-native-update/RCTPushy (= 9.1.5)
+    - SSZipArchive
+  - react-native-update/HDiffPatch (9.1.5):
+    - RCT-Folly (= 2021.07.22.00)
+    - React
+    - React-Core
+    - SSZipArchive
+  - react-native-update/RCTPushy (9.1.5):
+    - RCT-Folly (= 2021.07.22.00)
+    - React
+    - React-Core
+    - SSZipArchive
   - React-NativeModulesApple (0.72.3):
     - hermes-engine
     - React-callinvoker
@@ -433,6 +450,7 @@ PODS:
   - RNSVG (13.4.0):
     - React-Core
   - SocketRocket (0.6.1)
+  - SSZipArchive (2.4.3)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -461,6 +479,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-update (from `../node_modules/react-native-update`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -487,6 +506,7 @@ SPEC REPOS:
     - fmt
     - libevent
     - SocketRocket
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   boost:
@@ -534,6 +554,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-update:
+    :path: "../node_modules/react-native-update"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-perflogger:
@@ -600,6 +622,7 @@ SPEC CHECKSUMS:
   React-jsinspector: b511447170f561157547bc0bef3f169663860be7
   React-logger: c5b527272d5f22eaa09bb3c3a690fee8f237ae95
   react-native-safe-area-context: cd1169d797a2ef722a00bfc5af10748d5b6c94f9
+  react-native-update: da81e53dbaa3ac13a752c192258c624816df07a3
   React-NativeModulesApple: c57f3efe0df288a6532b726ad2d0322a9bf38472
   React-perflogger: 6bd153e776e6beed54c56b0847e1220a3ff92ba5
   React-RCTActionSheet: c0b62af44e610e69d9a2049a682f5dba4e9dff17
@@ -620,8 +643,9 @@ SPEC CHECKSUMS:
   RNScreens: 3c5b9f4a9dcde752466854b6109b79c0e205dad3
   RNSVG: 07dbd870b0dcdecc99b3a202fa37c8ca163caec2
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   Yoga: 8796b55dba14d7004f980b54bcc9833ee45b28ce
 
-PODFILE CHECKSUM: b72fa6ce4404db601d32af2d8aed4e9397fea3b4
+PODFILE CHECKSUM: 86f0164a1386aee55549562f972386c788fc2e22
 
 COCOAPODS: 1.14.3

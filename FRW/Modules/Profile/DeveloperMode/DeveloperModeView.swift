@@ -8,6 +8,7 @@
 import React
 import SwiftUI
 
+
 struct DeveloperModeView_Previews: PreviewProvider {
     static var previews: some View {
         DeveloperModeView()
@@ -158,7 +159,14 @@ struct DeveloperModeView: RouteableView {
     
     func onReactNative() {
         NSLog("Hello")
-        let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
+        var jsCodeLocation: URL
+#if DEBUG
+        jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
+#else
+        jsCodeLocation = RCTPushy.bundleURL()
+
+#endif
+        
         let mockData: NSDictionary = ["scores":
             [
                 ["name": "Alex", "value": "42"],
@@ -167,7 +175,7 @@ struct DeveloperModeView: RouteableView {
 
         let rootView = RCTRootView(
             bundleURL: jsCodeLocation,
-            moduleName: "MyReactNativeApp",
+            moduleName: "frw-rn-native",
             initialProperties: mockData as [NSObject: AnyObject],
             launchOptions: nil
         )
