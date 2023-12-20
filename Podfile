@@ -43,7 +43,6 @@ def react_commpact
   # RCTWebSocket 依赖有问题，修改路径
   pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
   # pod 'React-RCTWebSocket', :path => '../node_modules/react-native/Libraries/WebSocket'
-  pod 'react-native-update', path: '../node_modules/react-native-update'
 
 
   pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'

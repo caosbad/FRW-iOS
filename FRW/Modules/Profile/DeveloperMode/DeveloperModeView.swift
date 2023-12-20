@@ -163,7 +163,7 @@ struct DeveloperModeView: RouteableView {
 #if DEBUG
         jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
 #else
-        jsCodeLocation = RCTPushy.bundleURL()
+        jsCodeLocation = CodePush.bundleURL()
 
 #endif
         

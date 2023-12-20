@@ -38,6 +38,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         let _ = LocalEnvManager.shared
         
+        AppCenterReactNative.register()
+        AppCenterReactNativeAnalytics.register(withInitiallyEnabled: true)
+        AppCenterReactNativeCrashes.registerWithAutomaticProcessing()
+        
 #if DEBUG
         let console = ConsoleDestination()
         console.format = "$DHH:mm:ss.SSS$d $C$L$c $N.$F:$l - $M - $X"
