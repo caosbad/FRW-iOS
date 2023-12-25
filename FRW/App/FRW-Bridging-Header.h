@@ -8,7 +8,9 @@
 #ifndef Lilico_Bridging_Header_h
 #define Lilico_Bridging_Header_h
 
-#import "RCTPushy.h"
-
+#import <CodePush/CodePush.h>
+#import <AppCenterReactNative.h>
+#import <AppCenterReactNativeAnalytics.h>
+#import <AppCenterReactNativeCrashes.h>
 
 #endif /* Lilico_Bridging_Header_h */
