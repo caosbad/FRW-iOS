@@ -166,17 +166,11 @@ struct DeveloperModeView: RouteableView {
         jsCodeLocation = CodePush.bundleURL()
 
 #endif
-        
-        let mockData: NSDictionary = ["scores":
-            [
-                ["name": "Alex", "value": "42"],
-                ["name": "Joel", "value": "10"]
-            ]]
 
         let rootView = RCTRootView(
             bundleURL: jsCodeLocation,
             moduleName: "frw-rn-native",
-            initialProperties: mockData as [NSObject: AnyObject],
+            initialProperties: ReactHandler.initialProperties(),
             launchOptions: nil
         )
         let vc = UIViewController()

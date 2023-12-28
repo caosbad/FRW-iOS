@@ -943,6 +943,9 @@
 		4E2B704D2AF3727F004F00A0 /* KeyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B704C2AF3727F004F00A0 /* KeyResponse.swift */; };
 		4E2B704E2AF3727F004F00A0 /* KeyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B704C2AF3727F004F00A0 /* KeyResponse.swift */; };
 		4E344480282EC1C40040E5A4 /* NFTCollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E34447E282EC1C40040E5A4 /* NFTCollectionCard.swift */; };
+		4E3B10E92B3D6C870037422C /* ReactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10E82B3D6C870037422C /* ReactHandler.swift */; };
+		4E3B10EA2B3D6C870037422C /* ReactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10E82B3D6C870037422C /* ReactHandler.swift */; };
+		4E3B10EE2B3D78CB0037422C /* ReactHandlerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */; };
 		4E3E5BE32875DC2000A5FA65 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */; };
 		4E3E5BE42875DC2000A5FA65 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */; };
 		4E4F794C2831FCB700ED027C /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F794A2831FCB700ED027C /* ImageName.swift */; };
@@ -2021,7 +2024,6 @@
 		15F2443F28CB370D00C1090E /* CapusuleGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapusuleGroupView.swift; sourceTree = "<group>"; };
 		15F2444028CB370D00C1090E /* LowerCapsuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowerCapsuleView.swift; sourceTree = "<group>"; };
 		15F43D112753B4F6004F6F49 /* PageIndictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndictor.swift; sourceTree = "<group>"; };
-		337B9E622B31725100E1474C /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		3DDE2BCF67AFDE95DD211138 /* Pods-FRW-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRW-dev.release.xcconfig"; path = "Target Support Files/Pods-FRW-dev/Pods-FRW-dev.release.xcconfig"; sourceTree = "<group>"; };
 		45CC33BF20B5E81FBF9EEC46 /* Pods-FRW-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRW-dev.debug.xcconfig"; path = "Target Support Files/Pods-FRW-dev/Pods-FRW-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		4BA3A8A15ED88AEDAE75A3FC /* libPods-FRW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2043,6 +2045,9 @@
 		4E24BC702AAF6392009CE21F /* NFTCatalogCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCatalogCache.swift; sourceTree = "<group>"; };
 		4E2B704C2AF3727F004F00A0 /* KeyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyResponse.swift; sourceTree = "<group>"; };
 		4E34447E282EC1C40040E5A4 /* NFTCollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCollectionCard.swift; sourceTree = "<group>"; };
+		4E3B10E82B3D6C870037422C /* ReactHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactHandler.swift; sourceTree = "<group>"; };
+		4E3B10EC2B3D78CB0037422C /* ReactHandlerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactHandlerBridge.h; sourceTree = "<group>"; };
+		4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactHandlerBridge.m; sourceTree = "<group>"; };
 		4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		4E4F794A2831FCB700ED027C /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 		4E4F794D2831FF0F00ED027C /* NFTSquareCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTSquareCard.swift; sourceTree = "<group>"; };
@@ -4140,7 +4145,6 @@
 		15EC9DE5274FD1FC00F70CD9 = {
 			isa = PBXGroup;
 			children = (
-				337B9E622B31725100E1474C /* AppCenter-Config.plist */,
 				4E08604A2AB8AF9B0037F582 /* FRWDevWidgetsExtension.entitlements */,
 				4E0860492AB8AF9B0037F582 /* FRWWidgetsExtension.entitlements */,
 				15EC9DF0274FD1FC00F70CD9 /* FRW */,
@@ -4172,6 +4176,7 @@
 		15EC9DF0274FD1FC00F70CD9 /* FRW */ = {
 			isa = PBXGroup;
 			children = (
+				4E3B10E72B3D6C5C0037422C /* ReactNative */,
 				6ABAE528283627F300C97AE2 /* Services */,
 				4E8DD9FA282E505B0016A931 /* Tools */,
 				159A56062753848B004BCACC /* Foundation */,
@@ -4255,6 +4260,24 @@
 				4E2B704C2AF3727F004F00A0 /* KeyResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4E3B10E72B3D6C5C0037422C /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B10EB2B3D78A70037422C /* bridge */,
+				4E3B10E82B3D6C870037422C /* ReactHandler.swift */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		4E3B10EB2B3D78A70037422C /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B10EC2B3D78CB0037422C /* ReactHandlerBridge.h */,
+				4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */,
+			);
+			path = bridge;
 			sourceTree = "<group>";
 		};
 		4E4F79492831FC5500ED027C /* MaterialMap */ = {
@@ -5545,7 +5568,7 @@
 				154B887C2765EBA700780E93 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				15D57753277C238B00045E79 /* XCRemoteSwiftPackageReference "Moya" */,
 				15DE22D7277DD53000B5EE03 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
+				15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI" */,
 				15DE22F7277FF55C00B5EE03 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				156AC7A527802F4F00ED5E3E /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
 				156AC7AF278042DE00ED5E3E /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
@@ -5558,7 +5581,7 @@
 				4ED6DD0E285A22A800105133 /* XCRemoteSwiftPackageReference "IrregularGradient" */,
 				1500783028682B8900A00109 /* XCRemoteSwiftPackageReference "SPIndicator" */,
 				6AE46060286EE644009C2B96 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
-				6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */,
+				6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
 				158832C82894262B00142B35 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */,
 				158832D02894273600142B35 /* XCRemoteSwiftPackageReference "Starscream" */,
 				1588332028943F4D00142B35 /* XCRemoteSwiftPackageReference "NativeUIKit" */,
@@ -5568,7 +5591,7 @@
 				15D3BA6928C3B1ED009AEA6E /* XCRemoteSwiftPackageReference "ColorKit" */,
 				15D3BA6E28C3B8E3009AEA6E /* XCRemoteSwiftPackageReference "ViewAnimator" */,
 				15D3BA7328C45EFF009AEA6E /* XCRemoteSwiftPackageReference "Hero" */,
-				15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios.git" */,
+				15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios" */,
 				15F517F928C6574C00504FDC /* XCRemoteSwiftPackageReference "atlantis" */,
 				6A29114028CB2A87003295BD /* XCRemoteSwiftPackageReference "JXSegmentedView" */,
 				15D6D8F228CBAEBD00CBA152 /* XCRemoteSwiftPackageReference "FancyScrollView" */,
@@ -5753,7 +5776,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$SRCROOT/R.generated.swift",
+				$SRCROOT/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -6141,6 +6164,7 @@
 				15DC218127819C56000B187A /* VActionSheet.swift in Sources */,
 				6AA2E75B289D28EC00B4DD96 /* DispatchQueue.swift in Sources */,
 				6A46754E28F2D70400F705A8 /* FileManager.swift in Sources */,
+				4E3B10EA2B3D6C870037422C /* ReactHandler.swift in Sources */,
 				15DC20D327819C56000B187A /* VPlainButton.swift in Sources */,
 				15DC20ED27819C56000B187A /* VSectionListModel.swift in Sources */,
 				15DC218D27819C56000B187A /* VRadioButton.swift in Sources */,
@@ -6798,6 +6822,7 @@
 				6AA2E75A289D28EC00B4DD96 /* DispatchQueue.swift in Sources */,
 				15C58B162868A4EE00BD4FC6 /* VPlainButton.swift in Sources */,
 				6A46754D28F2D70400F705A8 /* FileManager.swift in Sources */,
+				4E3B10E92B3D6C870037422C /* ReactHandler.swift in Sources */,
 				15C58B172868A4EE00BD4FC6 /* VSectionListModel.swift in Sources */,
 				15C58B182868A4EE00BD4FC6 /* VRadioButton.swift in Sources */,
 				15C58B192868A4EE00BD4FC6 /* BackAppBar.swift in Sources */,
@@ -7125,6 +7150,7 @@
 				15C58BDE2868A4EE00BD4FC6 /* VText.swift in Sources */,
 				4E90592F2B1792F10029FC66 /* SyncAddDeviceView.swift in Sources */,
 				15C58BDF2868A4EE00BD4FC6 /* UIView+Extensions.swift in Sources */,
+				4E3B10EE2B3D78CB0037422C /* ReactHandlerBridge.m in Sources */,
 				15C58BE12868A4EE00BD4FC6 /* MoyaAsync.swift in Sources */,
 				15C58BE22868A4EE00BD4FC6 /* VBaseListLayoutType.swift in Sources */,
 				15C58BE32868A4EE00BD4FC6 /* SnapAlignment+Convert.swift in Sources */,
@@ -7423,7 +7449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "FRW/App/Env/Dev/FRW-dev.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FRW/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = C7CT739SU9;
 				ENABLE_PREVIEWS = YES;
@@ -7448,7 +7474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = io.outblock.lilico.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -7467,7 +7493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "FRW/App/Env/Dev/FRW-dev.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FRW/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = C7CT739SU9;
 				ENABLE_PREVIEWS = YES;
@@ -7489,7 +7515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = io.outblock.lilico.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -7593,7 +7619,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -7654,12 +7680,17 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -7670,7 +7701,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -7727,12 +7758,17 @@
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -8255,7 +8291,7 @@
 				minimumVersion = 4.2.2;
 			};
 		};
-		15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
+		15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -8359,7 +8395,7 @@
 				revision = f9676f1d56239b1836587794923cb89cec8ae18a;
 			};
 		};
-		15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios.git" */ = {
+		15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rive-app/rive-ios.git";
 			requirement = {
@@ -8431,7 +8467,7 @@
 				minimumVersion = 4.2.2;
 			};
 		};
-		15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
+		15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -8496,7 +8532,7 @@
 				kind = branch;
 			};
 		};
-		6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */ = {
+		6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
 			requirement = {
@@ -8752,7 +8788,7 @@
 		};
 		15C58A8E2868A4EE00BD4FC6 /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
+			package = 15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
 			productName = SkeletonUI;
 		};
 		15C58A902868A4EE00BD4FC6 /* GoogleSignIn */ = {
@@ -8827,7 +8863,7 @@
 		};
 		15CC8A6028C4E0FD001D2696 /* RiveRuntime */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios.git" */;
+			package = 15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios" */;
 			productName = RiveRuntime;
 		};
 		15D1727A292667DF0049A956 /* WalletConnectRouter */ = {
@@ -8902,7 +8938,7 @@
 		};
 		15DE22F0277F133B00B5EE03 /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
+			package = 15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
 			productName = SkeletonUI;
 		};
 		15F22F19278B21B600FCF772 /* BiometricAuthentication */ = {
@@ -8962,7 +8998,7 @@
 		};
 		6A0454CC28768E9E00A9131C /* SwiftUIPager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */;
+			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
 			productName = SwiftUIPager;
 		};
 		6A0B10432A664A1E00023767 /* FirebaseMessaging */ = {
@@ -9107,7 +9143,7 @@
 		};
 		6AE1D48D287690E7000FA0B7 /* SwiftUIPager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */;
+			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
 			productName = SwiftUIPager;
 		};
 		6AE46061286EE644009C2B96 /* SwiftUICharts */ = {
