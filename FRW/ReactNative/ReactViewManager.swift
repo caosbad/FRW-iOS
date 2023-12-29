@@ -31,7 +31,7 @@ class ReactViewManager {
 
 extension ReactViewManager {
     class func viewConttroller(module: ReactModule) -> UIViewController {
-        let rnView = RCTRootView(bridge: ReactViewManager.shared.bridge, 
+        let rnView = RCTRootView(bridge: AppDelegate.rnBridge(),
                                  moduleName: module.name,
                                  initialProperties: ReactHandler.initialProperties())
         let vc = UIViewController()

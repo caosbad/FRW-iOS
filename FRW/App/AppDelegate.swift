@@ -237,6 +237,11 @@ extension AppDelegate {
 }
 
 extension AppDelegate {
+    
+    class func rnBridge() -> RCTBridge {
+        return bridge!
+    }
+    
     func sourceURL(bridge _: RCTBridge?) -> URL? {
         #if DEBUG
         return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index")
