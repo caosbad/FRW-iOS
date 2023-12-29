@@ -158,24 +158,28 @@ struct DeveloperModeView: RouteableView {
     }
     
     func onReactNative() {
-        NSLog("Hello")
-        var jsCodeLocation: URL
-#if DEBUG
-        jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
-#else
-        jsCodeLocation = CodePush.bundleURL()
-
-#endif
-
-        let rootView = RCTRootView(
-            bundleURL: jsCodeLocation,
-            moduleName: "frw-rn-native",
-            initialProperties: ReactHandler.initialProperties(),
-            launchOptions: nil
-        )
-        let vc = UIViewController()
-        vc.view = rootView
+        
+        let vc = ReactViewManager.viewConttroller(module: .app(name: .frw))
         Router.topNavigationController()?.pushViewController(vc)
+        
+//        NSLog("Hello")
+//        var jsCodeLocation: URL
+//#if DEBUG
+//        jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")!
+//#else
+//        jsCodeLocation = CodePush.bundleURL()
+//
+//#endif
+//
+//        let rootView = RCTRootView(
+//            bundleURL: jsCodeLocation,
+//            moduleName: "frw-rn-native",
+//            initialProperties: ReactHandler.initialProperties(),
+//            launchOptions: nil
+//        )
+//        let vc = UIViewController()
+//        vc.view = rootView
+//        Router.topNavigationController()?.pushViewController(vc)
     }
 }
 

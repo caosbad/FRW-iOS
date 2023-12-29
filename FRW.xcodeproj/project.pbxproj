@@ -946,6 +946,8 @@
 		4E3B10E92B3D6C870037422C /* ReactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10E82B3D6C870037422C /* ReactHandler.swift */; };
 		4E3B10EA2B3D6C870037422C /* ReactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10E82B3D6C870037422C /* ReactHandler.swift */; };
 		4E3B10EE2B3D78CB0037422C /* ReactHandlerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */; };
+		4E3B10F02B3E73080037422C /* ReactViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10EF2B3E73080037422C /* ReactViewManager.swift */; };
+		4E3B10F12B3E73080037422C /* ReactViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10EF2B3E73080037422C /* ReactViewManager.swift */; };
 		4E3E5BE32875DC2000A5FA65 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */; };
 		4E3E5BE42875DC2000A5FA65 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */; };
 		4E4F794C2831FCB700ED027C /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F794A2831FCB700ED027C /* ImageName.swift */; };
@@ -2048,6 +2050,7 @@
 		4E3B10E82B3D6C870037422C /* ReactHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactHandler.swift; sourceTree = "<group>"; };
 		4E3B10EC2B3D78CB0037422C /* ReactHandlerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactHandlerBridge.h; sourceTree = "<group>"; };
 		4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactHandlerBridge.m; sourceTree = "<group>"; };
+		4E3B10EF2B3E73080037422C /* ReactViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactViewManager.swift; sourceTree = "<group>"; };
 		4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		4E4F794A2831FCB700ED027C /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 		4E4F794D2831FF0F00ED027C /* NFTSquareCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTSquareCard.swift; sourceTree = "<group>"; };
@@ -4267,6 +4270,7 @@
 			children = (
 				4E3B10EB2B3D78A70037422C /* bridge */,
 				4E3B10E82B3D6C870037422C /* ReactHandler.swift */,
+				4E3B10EF2B3E73080037422C /* ReactViewManager.swift */,
 			);
 			path = ReactNative;
 			sourceTree = "<group>";
@@ -6517,6 +6521,7 @@
 				15F2444D28CB370D00C1090E /* LowerCapsuleView.swift in Sources */,
 				15DC215127819C56000B187A /* VNavigationView.swift in Sources */,
 				6AC717E3287EA61100AA5040 /* WalletSendAmountViewModel.swift in Sources */,
+				4E3B10F12B3E73080037422C /* ReactViewManager.swift in Sources */,
 				4ECB9960285B739700F59852 /* OffsetScrollView.swift in Sources */,
 				4E2381052B18707D00756874 /* SyncAddDeviceViewModel.swift in Sources */,
 				15DC21F02781F388000B187A /* TYNKView.swift in Sources */,
@@ -7004,6 +7009,7 @@
 				15C58B842868A4EE00BD4FC6 /* VPageIndicatorModel.swift in Sources */,
 				15C58B872868A4EE00BD4FC6 /* AppDelegate.swift in Sources */,
 				15C58B882868A4EE00BD4FC6 /* VMenuSubMenu.swift in Sources */,
+				4E3B10F02B3E73080037422C /* ReactViewManager.swift in Sources */,
 				15C58B892868A4EE00BD4FC6 /* FirebaseStorageUtils.swift in Sources */,
 				6AEE39ED28A24DDB00F3C56E /* NFTRequests.swift in Sources */,
 				15C58B8A2868A4EE00BD4FC6 /* DashLine.swift in Sources */,

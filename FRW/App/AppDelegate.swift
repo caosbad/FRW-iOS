@@ -15,12 +15,13 @@ import UIKit
 import WalletCore
 import SwiftyBeaver
 import FirebaseMessaging
-
+import React
 #if DEBUG
 import Atlantis
 #endif
 
 let log = SwiftyBeaver.self
+private var bridge: RCTBridge?
 
 @main
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -68,6 +69,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 #if DEBUG
         Atlantis.start()
 #endif
+        
+        bridge = RCTBridge(bundleURL: sourceURL(bridge: bridge), moduleProvider: nil, launchOptions: nil)
+        #if RCT_DEV
+            bridge?.moduleClasses = RCTDevLoadingView.self
+        #endif
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.jailbreakDetect()
@@ -227,5 +233,15 @@ extension AppDelegate {
         if UIDevice.isJailbreak {
             Router.route(to: RouteMap.Wallet.jailbreakAlert)
         }
+    }
+}
+
+extension AppDelegate {
+    func sourceURL(bridge _: RCTBridge?) -> URL? {
+        #if DEBUG
+        return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index")
+        #else
+            return CodePush.bundleURL()
+        #endif
     }
 }
