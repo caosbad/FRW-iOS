@@ -5568,7 +5568,7 @@
 				154B887C2765EBA700780E93 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				15D57753277C238B00045E79 /* XCRemoteSwiftPackageReference "Moya" */,
 				15DE22D7277DD53000B5EE03 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+				15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
 				15DE22F7277FF55C00B5EE03 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				156AC7A527802F4F00ED5E3E /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
 				156AC7AF278042DE00ED5E3E /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
@@ -5581,7 +5581,7 @@
 				4ED6DD0E285A22A800105133 /* XCRemoteSwiftPackageReference "IrregularGradient" */,
 				1500783028682B8900A00109 /* XCRemoteSwiftPackageReference "SPIndicator" */,
 				6AE46060286EE644009C2B96 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
-				6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+				6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */,
 				158832C82894262B00142B35 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */,
 				158832D02894273600142B35 /* XCRemoteSwiftPackageReference "Starscream" */,
 				1588332028943F4D00142B35 /* XCRemoteSwiftPackageReference "NativeUIKit" */,
@@ -5591,7 +5591,7 @@
 				15D3BA6928C3B1ED009AEA6E /* XCRemoteSwiftPackageReference "ColorKit" */,
 				15D3BA6E28C3B8E3009AEA6E /* XCRemoteSwiftPackageReference "ViewAnimator" */,
 				15D3BA7328C45EFF009AEA6E /* XCRemoteSwiftPackageReference "Hero" */,
-				15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios" */,
+				15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios.git" */,
 				15F517F928C6574C00504FDC /* XCRemoteSwiftPackageReference "atlantis" */,
 				6A29114028CB2A87003295BD /* XCRemoteSwiftPackageReference "JXSegmentedView" */,
 				15D6D8F228CBAEBD00CBA152 /* XCRemoteSwiftPackageReference "FancyScrollView" */,
@@ -5776,7 +5776,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/R.generated.swift,
+				"$SRCROOT/R.generated.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -7680,11 +7680,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -7758,11 +7754,7 @@
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -8291,7 +8283,7 @@
 				minimumVersion = 4.2.2;
 			};
 		};
-		15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+		15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -8395,7 +8387,7 @@
 				revision = f9676f1d56239b1836587794923cb89cec8ae18a;
 			};
 		};
-		15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+		15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rive-app/rive-ios.git";
 			requirement = {
@@ -8467,7 +8459,7 @@
 				minimumVersion = 4.2.2;
 			};
 		};
-		15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+		15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -8532,7 +8524,7 @@
 				kind = branch;
 			};
 		};
-		6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+		6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
 			requirement = {
@@ -8788,7 +8780,7 @@
 		};
 		15C58A8E2868A4EE00BD4FC6 /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			package = 15C58A8F2868A4EE00BD4FC6 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
 			productName = SkeletonUI;
 		};
 		15C58A902868A4EE00BD4FC6 /* GoogleSignIn */ = {
@@ -8863,7 +8855,7 @@
 		};
 		15CC8A6028C4E0FD001D2696 /* RiveRuntime */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			package = 15CC8A5F28C4E0FD001D2696 /* XCRemoteSwiftPackageReference "rive-ios.git" */;
 			productName = RiveRuntime;
 		};
 		15D1727A292667DF0049A956 /* WalletConnectRouter */ = {
@@ -8938,7 +8930,7 @@
 		};
 		15DE22F0277F133B00B5EE03 /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			package = 15DE22ED277F132200B5EE03 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
 			productName = SkeletonUI;
 		};
 		15F22F19278B21B600FCF772 /* BiometricAuthentication */ = {
@@ -8998,7 +8990,7 @@
 		};
 		6A0454CC28768E9E00A9131C /* SwiftUIPager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */;
 			productName = SwiftUIPager;
 		};
 		6A0B10432A664A1E00023767 /* FirebaseMessaging */ = {
@@ -9143,7 +9135,7 @@
 		};
 		6AE1D48D287690E7000FA0B7 /* SwiftUIPager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			package = 6A0454CB28768E9E00A9131C /* XCRemoteSwiftPackageReference "SwiftUIPager.git" */;
 			productName = SwiftUIPager;
 		};
 		6AE46061286EE644009C2B96 /* SwiftUICharts */ = {

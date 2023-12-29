@@ -48,7 +48,7 @@ def react_commpact
   pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
   pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
   pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
-  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+  # pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
 end
 
 config = use_native_modules!
