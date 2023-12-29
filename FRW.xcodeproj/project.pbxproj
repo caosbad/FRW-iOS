@@ -948,6 +948,7 @@
 		4E3B10EE2B3D78CB0037422C /* ReactHandlerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */; };
 		4E3B10F02B3E73080037422C /* ReactViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10EF2B3E73080037422C /* ReactViewManager.swift */; };
 		4E3B10F12B3E73080037422C /* ReactViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10EF2B3E73080037422C /* ReactViewManager.swift */; };
+		4E3B10F22B3EB6260037422C /* ReactHandlerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */; };
 		4E3E5BE32875DC2000A5FA65 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */; };
 		4E3E5BE42875DC2000A5FA65 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */; };
 		4E4F794C2831FCB700ED027C /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F794A2831FCB700ED027C /* ImageName.swift */; };
@@ -2048,7 +2049,6 @@
 		4E2B704C2AF3727F004F00A0 /* KeyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyResponse.swift; sourceTree = "<group>"; };
 		4E34447E282EC1C40040E5A4 /* NFTCollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCollectionCard.swift; sourceTree = "<group>"; };
 		4E3B10E82B3D6C870037422C /* ReactHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactHandler.swift; sourceTree = "<group>"; };
-		4E3B10EC2B3D78CB0037422C /* ReactHandlerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactHandlerBridge.h; sourceTree = "<group>"; };
 		4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactHandlerBridge.m; sourceTree = "<group>"; };
 		4E3B10EF2B3E73080037422C /* ReactViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactViewManager.swift; sourceTree = "<group>"; };
 		4E3E5BE22875DC2000A5FA65 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -4278,7 +4278,6 @@
 		4E3B10EB2B3D78A70037422C /* bridge */ = {
 			isa = PBXGroup;
 			children = (
-				4E3B10EC2B3D78CB0037422C /* ReactHandlerBridge.h */,
 				4E3B10ED2B3D78CB0037422C /* ReactHandlerBridge.m */,
 			);
 			path = bridge;
@@ -5995,6 +5994,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3B10F22B3EB6260037422C /* ReactHandlerBridge.m in Sources */,
 				15DC21CF27819C56000B187A /* BasicAnimation.swift in Sources */,
 				15DC209D27819C56000B187A /* VBaseHeaderFooterType.swift in Sources */,
 				15DC209F27819C56000B187A /* VSecondaryButtonModel.swift in Sources */,

@@ -23,9 +23,12 @@ class ReactHandler: NSObject {
         ]
     }
     
-    @objc(getAddress)
-    func getAddress() -> String {
-        WalletManager.shared.selectedAccountAddress
+    @objc
+    func getAddress(_ resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
+        DispatchQueue.main.async {
+            let address = WalletManager.shared.selectedAccountAddress
+            resolve(address)
+        }
     }
 }
 

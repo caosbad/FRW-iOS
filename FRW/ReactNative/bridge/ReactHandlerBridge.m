@@ -10,6 +10,6 @@
 @interface RCT_EXTERN_MODULE(ReactHandler, NSObject)
 
 
-RCT_EXTERN_METHOD(getAddress)
+RCT_EXTERN_METHOD(getAddress:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 
 @end
