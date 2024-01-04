@@ -35,7 +35,9 @@ extension ReactViewManager {
                                  moduleName: module.name,
                                  initialProperties: ReactHandler.initialProperties())
         let vc = UIViewController()
-        vc.view = rnView
+        // vc.view = rnView
+        vc.view.addSubview(rnView)
+        rnView.frame = UIScreen.main.bounds
         return vc
     }
 }
